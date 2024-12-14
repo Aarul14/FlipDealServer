@@ -10,6 +10,5 @@ app.use(express.json());
 
 app.use('/api/', require('./Routes/TotalPriceRoute'));
 
-app.listen(PORT, () => {
-  console.log('Hi there, the server is running on port ' + PORT);
-});
+// 
+module.exports = app;
